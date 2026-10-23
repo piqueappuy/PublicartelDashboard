@@ -7,7 +7,7 @@ window.DASHBOARD = {
   weatherEndpoint: "",
   sections: [
     { title: "PRÓXIMOS|CUMPLEAÑOS", icon: "🎂", url: "", embed: false, rotate: false },
-    { title: "MANTENIMIENTOS|DUCSA", icon: "🛠️", url: "", embed: false, rotate: false },
+    { title: "MANTENIMIENTOS|DUCSA", icon: "🛠️", url: "https://mantenimientosducsa.glide.page/dl/reclamos_dashboard", embed: false, rotate: false },
     { title: "LIVE|TRACKING", icon: "📍", url: "https://flotas.strix.uy/live-tracking", embed: false, rotate: false },
     { title: "ÚLTIMAS|NOTICIAS", icon: "📰", url: "", embed: false, rotate: false },
     { title: "ÚLTIMOS|TRABAJOS", icon: "🏗️", url: "", embed: false, rotate: false },
