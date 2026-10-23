@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="es">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#101b36"><title>Publicartel · Dashboard interactivo</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<main id="menu">
+  <div class="facade" aria-hidden="true"></div><div class="triangles" aria-hidden="true"></div>
+  <header><div class="brand">PUBLICARTEL</div><div class="clock"><time id="time"></time><div id="date"></div></div></header>
+  <nav id="buttons" aria-label="Secciones del dashboard"></nav>
+  <div class="tools"><button id="fullscreen" type="button">Pantalla completa</button><span id="notice" role="status"></span></div>
+  <footer><span id="weather" title="Ubicación predeterminada: Montevideo">Clima sin configurar</span><strong>DASHBOARD INTERACTIVO</strong></footer>
+</main>
+<section id="viewer" hidden aria-label="Contenido"><div class="viewer-bar"><button id="back">← Volver al menú</button><strong id="section-title"></strong><a id="external" target="_blank" rel="noopener noreferrer">Abrir sitio externo ↗</a></div><p class="frame-help">Si no aparece el contenido, usá «Abrir sitio externo».</p><iframe id="frame" title="Contenido de la sección" sandbox="allow-scripts allow-same-origin allow-forms allow-popups" referrerpolicy="strict-origin-when-cross-origin"></iframe><button id="wake" hidden aria-label="Tocar para volver al menú"></button></section>
+<script src="config.js"></script><script src="app.js"></script>
+</body></html>
