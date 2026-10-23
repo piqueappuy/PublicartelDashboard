@@ -8,7 +8,7 @@ window.DASHBOARD = {
   sections: [
     { title: "PRÓXIMOS|CUMPLEAÑOS", icon: "🎂", url: "", embed: false, rotate: false },
     { title: "MANTENIMIENTOS|DUCSA", icon: "🛠️", url: "", embed: false, rotate: false },
-    { title: "LIVE|TRACKING", icon: "📍", url: "", embed: false, rotate: false },
+    { title: "LIVE|TRACKING", icon: "📍", url: "https://flotas.strix.uy/portal/login/", embed: false, rotate: false },
     { title: "ÚLTIMAS|NOTICIAS", icon: "📰", url: "", embed: false, rotate: false },
     { title: "ÚLTIMOS|TRABAJOS", icon: "🏗️", url: "", embed: false, rotate: false },
     { title: "PRONÓSTICO|CLIMÁTICO", icon: "🌤️", url: "", embed: false, rotate: false }
